@@ -4,10 +4,75 @@
   align-items: center;
 }
 
+/* Style for the form container */
+#github-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Style for form labels */
+#github-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+/* Style for input fields */
+#github-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+/* Style for the submit button */
+#github-form button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#github-form button:hover {
+  background-color: #45a049;
+}
+
 #github-container {
   display: flex;
 }
 
 ul {
   list-style: none;
+  padding: 5px;
+  margin: 5px;
+  position: relative;
+}
+ul li {
+  background-color: gray;
+  color: #fff;
+  padding: 15px;
+  margin-top: 26px;
+  margin-right: 205px;
+
+  display: inline-block;
+  display: flex;
+
+  align-items: center;
+}
+#show-repo-button {
+  background-color: #4caf50;
+  color: white;
+
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: none;
+}
+
+#show-repo-button:hover {
+  background-color: #45a049;
 }
